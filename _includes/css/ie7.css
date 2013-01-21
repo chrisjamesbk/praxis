@@ -1,0 +1,52 @@
+/* 
+ * ie6.css - css styles for Win IE < 7
+ *
+ */
+
+/*
+ * html elements
+ */
+
+		/*
+		 * clearfix
+		 */
+				.clearfix {
+					display : inline-block;
+				} 
+		
+
+/*
+ * global ids / areas
+ */
+		/*
+		 * nav
+		 */
+				/* nav sub-menu, appears on main-menu hover */
+				nav ul li:hover ul {
+					padding-top: 32px;
+				}
+				
+				nav ul li {
+					margin: 0;
+					padding-left: 21px;
+				}
+				
+				
+		/*
+		 * footer
+		 */				
+				#home footer #columns {
+					border: 0;
+					margin: 0;
+				}
+		
+
+/*
+ * page specific styles
+ */		
+		/*
+		 * home
+		 */
+				#home #faculty .photos li {
+					display:inline; /* Staircase bug fix */
+				}

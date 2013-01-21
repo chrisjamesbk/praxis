@@ -1,0 +1,34 @@
+/* 
+ * ie6.css - css styles for Win IE < 7
+ *
+ */
+
+/*
+ * html elements
+ */
+		/*
+		 * headings
+		 */
+
+
+		/*
+		 * text
+		 */
+
+
+		/*
+		 * clearfix
+		 */
+				.clearfix {height : 1%;} 
+		
+
+/*
+ * global ids / areas
+ */
+		#wrapper {
+		}
+		
+
+/*
+ * page specific styles
+ */		

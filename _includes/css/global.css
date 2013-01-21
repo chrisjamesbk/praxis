@@ -1,0 +1,995 @@
+/*
+ * Global CSS
+ *
+ */
+
+/* 
+ * Import CSS "libraries"
+ */
+@import url("reset.css");
+
+
+
+/*
+ * html elements
+ */
+		html {
+			height: 100.1%; /* vert scroll in firefox */
+		}
+
+		/* positioning of main content in the body */
+		body {
+		 	height: 100%;
+			background-color: #0D0D0D;
+			background-image: url('../img/bkgd-pattern-hatch.jpg'); 
+			font : 62.5%/1.25 futura-pt, Futura, "Century Gothic", AppleGothic, sans-serif; /* reset 1em to 10px */
+			color : #e0e0e0;
+		}
+
+
+		/*
+		 * headings
+		 */
+				h1 {
+					font-size: 2.4em;
+					font-weight: 500;
+				}
+				
+				h2 {
+					font-family: Garamond, Baskerville, Palatino, "Palatino Linotype", "URW Palladio L", "Bitstream Charter", Georgia, serif;
+					font-size: 2em;
+					font-weight: normal;
+					letter-spacing: 1.2px;
+				}
+
+
+		/*
+		 * text
+		 */
+				p {
+					font-family: Garamond, Baskerville, Palatino, "Palatino Linotype", "URW Palladio L", "Bitstream Charter", Georgia, serif;
+					font-size: 1.6em;
+					letter-spacing: 1px;
+				}
+		
+				
+		/*
+		 * misc
+		 */
+				strong {
+					color: #c20000;
+					font-weight: 500;
+				}
+				
+				img {
+					width: 140px;
+					border: 5px solid #e0e0e0;								
+				}
+				
+
+		/*
+		 * lists
+		 */
+				ul {
+					list-style : none;
+				}
+				
+
+		/*
+		 * links
+		 */
+		 		a {				
+					text-decoration : none;
+					outline : none;
+					color: #e0e0e0;
+				}
+
+				a:hover {
+					text-decoration: none;
+					color: #c20000;					
+				}
+				
+				a:active {
+					outline : none; /* remove dotted border around selected navigation in Firefox */
+				}	
+				
+				#button a {
+					display: block;
+					height: 58px;
+					width: 290px;
+					background: url(../img/audition-sprite.png) no-repeat 0 0;
+					margin-top: 15px;
+					text-indent: -9999px;
+				}
+				
+				#button a span {
+					display: none;
+				}
+				
+				#button a:hover {
+					background-position: 0 -58px;
+				}
+
+		/*
+		 * global classes
+		 */
+
+				/*
+				 * clearfix - fixes float clearing issues
+				 */
+						/* Gecko-based browsers */
+						 .clearfix:after {
+							content : "."; 
+							display : block; 
+							height : 0px; 
+							clear : both; 
+							visibility : hidden;
+						}
+						
+				/*
+				 * class .box - for the structural "white" sections/boxes throughout the site
+				 */
+						.box {
+							background: #e0e0e0;
+							color: #0D0D0D;
+							margin-bottom: 10px;
+							padding: 10px;
+							border-width: 0 2px 2px;
+							border-style: solid;
+							border-color: #0D0D0D;
+							background: -webkit-gradient(linear, left top, left bottom, from(#e0e0e0), to(#cacaca)); 
+							background: -moz-linear-gradient(top,  #e0e0e0,  #cacaca);
+							border-radius: 5px;
+							-moz-border-radius: 5px;
+							-webkit-border-radius: 5px;
+						}
+						
+						.box h1 {
+							margin-bottom: 5px;
+						}
+
+						.box p {
+							font-family: futura-pt, Futura, "Century Gothic", AppleGothic, sans-serif;
+							font-size:2em;					
+							color: #0D0D0D;
+							letter-spacing: 0;
+						}
+
+						.box ul {
+							font-size: 1.8em;
+							margin-left: 15px;
+						}
+
+						.box ul li {
+							list-style-type: square;
+							margin-bottom: 5px;
+						}				
+
+				
+/*
+ * global ids / areas
+ */
+		/*
+		 * container
+		 */
+				#container {
+					width : 960px;
+					margin-left : auto;
+					margin-right : auto;
+				}
+				
+		/*
+		 * header
+		 */
+				/*
+				 * header logo
+				 */	
+						header #logo {
+							float:left;						
+						}
+						
+						header #logo h1 {
+							display:none;
+							font-size: 1em;
+						}
+						
+						header #logo img {
+							width: 320px;
+							border: none;
+							margin: 40px 0 50px;
+						}
+				
+				/*
+				 * header nav list
+				 */				
+						/* nav main-menu in static state */
+						nav {
+							float: left;
+							width: 636px;
+							margin: 10px 0 0 4px;
+						}
+						
+						nav ul {
+							position: relative;
+						}
+						
+						nav ul li {
+							float: left;
+							width: 85px;
+							text-align: center;
+							letter-spacing: 0.3px;
+							border-bottom: 1px solid #c20000;
+							padding-bottom: 8px;
+							margin-left: 21px;
+						}
+						
+						nav ul li a {
+							font-size: 1.5em;
+							letter-spacing: 1px;
+						}
+						
+						nav ul li a:hover strong {
+							font-weight: bold;
+						}
+
+						/* nav main-menu hover state */
+						ul#nav .current a, ul#nav li:hover a {
+							text-decoration: none;
+							color: #c20000;
+						}
+
+						/* nav sub-menu hidden by default */
+						nav ul ul {
+							display: none;
+						}
+
+						/* nav sub-menu, appears on main-menu hover */
+						nav ul li:hover ul {
+							position: absolute;
+							display: block;
+							padding-top: 20px;
+							left: 0px;
+						}
+						
+						nav ul li:hover ul#nav2 {
+							left:106px;
+						}
+						
+						nav ul li:hover ul#nav3 {
+							left:318px;
+						}
+						
+						nav ul li:hover ul#nav4 {
+							left:424px;
+						}
+
+						nav ul li:hover ul li {
+							border: 0;
+							float:none; /* force sub-nav lists vertical */
+						}
+						
+						nav ul li:hover ul li a {
+							font-size: 1.3em;
+							font-weight:300;
+							letter-spacing: 0.3px;
+						}
+
+						/* nav sub-menu hover state */
+						nav ul li:hover ul li a:hover {
+							color: #c20000;
+						}
+								
+								
+				/*
+				 * header tagline
+				 */
+						#tagline {
+							position: relative;
+							top: 175px;
+							float: left;
+							width: 640px;
+							text-align: right;
+						}
+
+		/*
+		 * footer
+		 */
+				footer #columns {
+					padding-top: 10px;
+					border-top: 1px solid #e0e0e0;
+					margin: 50px 0;
+				}
+				
+				footer #columns .col {
+					float: left;
+					width: 320px;
+				}
+				
+				footer #columns p {
+					font-size: 1em;
+					text-align: center;
+					margin: 0;
+				}
+						
+
+/*
+ * page specific styles
+ */
+
+		/*
+		 * home
+		 */
+				/*
+				 * about section
+				 */
+					#home #about {
+						float: left;
+						width: 460px;
+						margin-right: 20px;
+					}
+					
+					#home #about p {
+						line-height: 20px;
+						margin-top: 10px;
+					}
+					
+					/*
+					 * #about footer
+					 */
+							#home #about footer {
+								margin-top: 15px;
+							}
+
+							#home #about footer p a {
+								color: #c20000;
+							}
+
+							#home #about footer p a:hover {
+								text-decoration: underline;
+							}
+				
+				/*
+				 * video section 
+				 */
+					#home #video {
+						float:left;
+						width:460px;
+						margin-left:20px;
+					}
+
+
+				/*
+				 * program section
+				 */
+						#home #program {
+							margin-top:50px;
+						}
+								
+						/*
+						 * content section
+						 */
+								#home #program ul {
+									margin:0;
+								}
+								
+								#home #program li {
+									float:left;
+									list-style:none;
+								}
+								
+								#home #program .col2 img {
+								  border-color: #0D0D0D;
+								  margin: -30px 0 0 20px;
+								  width: 436px;
+								}
+								
+								#home #program .col1 {
+									width:450px;
+									margin-right:20px;
+								}
+								
+								#home #program .col1 p {
+									font-size:18px;
+									margin:10px 0;
+									letter-spacing:1px;
+								}
+								
+								#home #program .col1 p span {
+									font-size:1.1em;
+									color: #c20000;
+									line-height:1.4em;
+								}
+								
+								#home #program .col1 table {
+									width:100%;
+								}
+								
+								#home #program .col1 table tr td:nth-child(1) {
+									width:30%;
+								}
+								
+								#home #program .col1 table tr td:nth-child(2) {
+									width:20%;
+								}
+								
+								#home #program .col1 table tr td:nth-child(3) {
+									width:50%;
+								}
+								
+								#home #program .col1 table p {
+									margin: 8px 0;
+								}
+								
+								#home #program .col1 form img {
+									border:0;
+									width:1px;
+								}
+								
+								/* BUY TICKETS
+								#home #program .col1 a {
+									display:block;
+									text-indent:-9999px;
+									height:58px;
+									width:290px;
+									overflow:hidden;
+									background:url('../img/tickets-sprite.png') no-repeat 0 0 transparent;
+									margin-left:88px;
+								}
+								
+								#home #program .col1 a:hover {
+									background:url('../img/tickets-sprite.png') no-repeat 0 -58px transparent;
+								}
+								*/
+								
+								#home #program .col1 a {
+									color:#c20000;
+								}
+								
+								#home #program .col1 a:hover {
+									text-decoration:underline;
+								}
+
+				/*
+				 * faculty section
+				 */
+						#home #faculty {
+							position: relative;
+							width: 100%;
+							margin: 50px 0;
+						}
+						
+						#home #faculty footer p a {
+							color: #c20000;
+						}
+
+						#home #faculty footer p a:hover {
+							text-decoration: underline;
+						}
+
+						/*
+						 * .photos section
+						 */
+								#home #faculty .photos {
+									float: left;
+									width: 640px;
+								}
+								
+								#home #faculty .photos li img {
+									height: 140px;		
+								}
+
+								#home #faculty .photos li a {
+									float: left;
+									width: 150px;
+									color: #e0e0e0;
+									margin-top: 10px;
+									margin-right: 10px;
+								}
+								
+								#home #faculty .photos a:hover img {
+									border-color: #0D0D0D;
+								}
+								
+								#home #faculty .photos li a h1 {
+									display: none;
+								}
+								
+								#home #faculty .photos li a h2 {
+									display: none;
+								}
+								
+								#home #faculty .photos li a:hover h1 {
+									display: block;
+									position: absolute;
+									left: 640px;
+									top: 420px;
+									font-family: Garamond, Baskerville, Palatino, "Palatino Linotype", "URW Palladio L", "Bitstream Charter", Georgia, serif;
+									font-size: 2.5em;
+									letter-spacing: 2px;					
+								}
+								
+								#home #faculty .photos li a:hover h2 {
+									display: block;
+									position: absolute;
+									left: 640px;
+									top: 460px;
+								}
+					
+
+						/*
+						 * aside
+						 */
+								#home #faculty aside {
+									float: left;
+									width: 320px;
+									margin-top: 10px;
+								}
+								
+								#home #faculty aside p {
+									line-height: 20px;
+									margin-top: 10px;
+								}
+								
+
+		/*
+		 * about
+		 */
+				#about .intro {
+					margin: 50px 0;
+				}
+				
+				#about .intro section {
+					float: left;
+					width: 470px;					
+				}
+				
+				#about .intro .right {
+					width: 469px;
+					padding-left: 10px;
+					border-left: 1px solid #e0e0e0;
+					margin-left: 10px;
+				}
+				
+				#about h1 {
+					margin-bottom: 5px;
+				}
+				
+				#about .box {
+					border-radius: 5px;
+					-moz-border-radius: 5px;
+					-webkit-border-radius: 5px;
+				}
+				
+				#about .box ul {
+					font-size: 1.8em;
+					margin-left: 15px;
+				}
+				
+				#about .box ul li {
+					list-style-type: square;
+					margin-bottom: 5px;
+				}
+				
+				#about img {
+					width: 300px;
+				}
+				
+				#about .inline {
+					float: right;
+					border-color: #0D0D0D;
+					margin: 3px 0 20px 20px;
+				}
+				
+				#about .box img.sig {
+					border: none;
+					margin: 10px 0;
+				}
+				
+				#about .contact {
+					margin-top: 40px;
+				}
+				
+				#about .contact ul {
+					font-family: Garamond, Baskerville, Palatino, "Palatino Linotype", "URW Palladio L", "Bitstream Charter", Georgia, serif;
+					font-size: 1.6em;
+					letter-spacing: 0.05em;
+					margin-bottom: 5px;
+				}
+				
+				#about .contact .inline {
+					margin-top:-26px;
+					border-color:#e0e0e0;
+				}
+		
+
+		/*
+		 * programs
+		 */
+				#programs .left {
+					float: left;
+					width: 604px;
+					margin-right: 6px;
+				}
+				
+				#programs .box {
+					margin-bottom: 50px;
+				}
+				
+				#programs .right {
+					float: right;
+					width: 320px;
+					margin-bottom: 10px;
+				}
+				
+				#programs .right h1 {
+					margin: 10px 0 5px;
+				}
+				
+				#programs .right ul {
+					font-family: Garamond, Baskerville, Palatino, "Palatino Linotype", "URW Palladio L", "Bitstream Charter", Georgia, serif;
+					font-size: 1.6em;
+					letter-spacing: 0.05em;
+					margin-bottom: 5px;
+				}
+				
+				#programs #button {
+					margin-left: 142px;
+				}
+				
+				#programs footer #columns {
+					margin-top: 0;
+				}
+				
+				#programs img.inline {
+					width: 240px;
+					float: right;
+					border-color: #0D0D0D;
+					margin: 3px 0 20px 20px;
+				}
+				
+				/*
+				 * 2011/2012
+				 */
+						#programs .box ul.dates li {
+							float:left;
+							width:290px;
+							list-style:none;
+						}
+						
+						#programs .box ul.dates li p {
+							font-size:1.1em;
+							text-align:center;
+							line-height:1.4em;
+						}
+						
+						#programs .box ul.dates li p span {
+							color:#c20000;
+						}
+						
+						#programs .box p.concerts {
+							text-align:center;
+						}
+						
+						#programs .box form {
+							text-align:center;
+							margin-bottom:10px;
+						}
+						
+						#programs .box form table {
+							width:604px;
+						}
+						
+						#programs .box form img {
+							border:0;
+							width:1px;
+						}
+						
+						#programs .right a img {
+							width:310px;
+							border:5px solid #e0e0e0;
+						}
+						
+						#programs .right a:hover img {
+							border:5px solid #cacaca;
+						}
+						
+						#programs .right p {
+							margin-top:10px;
+						}
+						
+						#programs .right p.venue {
+							font-size:1.2em;
+							margin:0 0 3px 0;
+						}
+						
+						#programs #spring .box ul {
+							margin-left:0;
+						}
+						
+				/*
+				 * Media 
+				 */
+						#media section {
+							margin-bottom:50px;
+						}
+						
+						#media section h1 {
+							margin-bottom:16px;
+						}
+						
+						#media img {
+							border:0;
+						}
+						
+						#media article#gallery {
+							position:relative;
+							width:960px;
+							background:#000;
+						}
+						
+						#media article#gallery img {
+							width:940px;
+							margin:10px;
+						}
+						
+						#media article#gallery ul li {
+							float:left;
+						}
+						
+						#media article#gallery ul li img {
+							width:72px;
+							height:40px;
+							margin:0 0 10px 10px;
+						}
+						
+						#media .videos article {
+							margin-bottom: 16px;
+						}
+
+		/*
+		 * faculty
+		 */			
+				#fac .intro {
+					margin-bottom: 40px;
+				}
+				
+				#fac section li {
+					margin-top: 40px;
+				}
+				
+				#fac section li.left img {
+					float: left;
+					margin-right: 10px;
+				}
+				
+				#fac section li.right img {
+					float: right;
+					margin-left: 10px;
+				}
+				
+				#fac section li h1 {
+					margin-bottom: 5px;
+				}
+				
+				#fac section li p {
+					width: 800px;
+				}
+				
+				#fac section li.left p {
+					float: right;
+				}
+				
+				#fac section li p span.trigger a {
+					color: #c20000;
+				}
+				
+				#fac section li p span.active a {
+					display: none;
+				}
+				
+
+		/*
+		 * audition
+		 */
+				#audition .main {
+					width: 640px;
+				}
+				
+				#audition .main h1, p {
+					margin-bottom: 10px;
+				}
+				
+				#audition .main h1 {
+					font-size: 2em;
+				}
+				
+				#audition .main ul { 
+					margin: -5px 0 10px 20px;
+				}
+				
+				#audition .main ul {
+					font-size: 1.35em;
+					letter-spacing: 0.05em;
+					margin: -5px 0 10px 20px;
+				}
+				
+				#audition .main input {
+					width: 150px;
+				}
+				
+				#audition #requirements li {
+					margin-bottom: 5px;
+				}
+				
+				#audition .main a {
+					text-decoration: underline;
+					color: #c20000;
+				}
+				
+				#audition .main a:hover {
+					text-decoration: none;
+				}
+				
+				/*
+				 * form
+				 */
+						#audition form {
+							width: 640px;
+							font-size: 1.25em;
+							letter-spacing: 0.05em;
+							margin-top: 30px;
+						}
+						
+						#audition fieldset {  
+							float: left;    
+							clear: left;    
+							width: 100%;
+							margin-bottom: 20px;   
+						}  
+						
+						#audition legend { /* fieldset & legend in html for accessibility reasons */
+							display: none;   
+						}
+						
+						#audition fieldset ul {  
+							   
+						}  
+						
+						#audition fieldset li {  
+							float: left;    
+							clear: left;    
+							width: 100%;    
+							padding-bottom: 1em;  
+						}  
+						
+						#audition fieldset.submit {  
+							float: none;    
+							width: auto; 
+							text-align: center;
+							padding: 1em 0 0 0;
+						}
+						
+						#audition label {    
+							float: left;    
+							width: 295px;    
+							margin-right: 20px;  
+						}
+						
+						#audition input {
+							width: 315px;
+						}
+						
+						#audition textarea {
+							width: 319px;
+						}
+						
+						#audition .checkbox label {
+							width: 640px;
+							margin-bottom: 5px;
+						}
+						
+						#audition .checkbox input {
+							width: 15px;
+							margin-left: 20px;
+						}
+
+								/*
+								 * form handling
+								 */
+										.error {
+											color: #c20000;
+										}
+										
+										form li {
+											position:relative;
+										}
+										
+										form li .error {
+											position:absolute;
+											float:right;
+											right:-320px;
+											top:4px;
+											font-size:1em;
+											text-align:left;
+											width:310px;
+											background: url(../img/icon_form-error-arrow.png) no-repeat left center transparent;
+											padding-left:5px;											
+										}
+										
+										form .checkbox li .error {
+											right: -300px;
+										}
+										
+										form li .error span {
+											color:#e0e0e0;
+											padding:3px 10px;
+											background:#c20000;											
+										}
+										
+										#audition .info img {
+											border: 0;
+										}
+
+		/*
+		 * support
+		 */
+				#support .left {
+					float: left;
+					width: 630px;
+					margin-right: 10px;
+				}
+				
+				#support .right {
+					float: right;
+					width: 320px;
+				}
+				
+				#support #button a {
+					height: 58px;
+					background: url(../img/give-sprite.png) no-repeat 0 0;
+					margin: 5px 15px;
+				}
+				
+				#support #button a:hover {
+					background-position: 0 -58px;
+				}
+				
+				#support #boxes {
+					margin-top: 50px;
+				}
+				
+				#support .box {
+					width: 290px;
+				}
+				
+				#support .wide {
+					width: 610px;
+				}
+				
+				#support .box li {
+					list-style-type: none;
+					margin: 0;
+				}
+				
+				#support #partnerships figure {
+					float:right;
+					width:240px;
+					margin-left:20px;
+				}
+				
+				#support #partnerships figure img {
+					width:230px;
+					border-color:#cacaca;
+				}
+				
+				#support #partnerships a {
+					color: #c20000;
+				}
+				
+				#support #partnerships figcaption {
+					margin:0 5px;
+					font-size:1.3em;
+				}
+
+				
+
