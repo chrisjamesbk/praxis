@@ -102,7 +102,7 @@ echo '
 						
 						<ul id="nav2" class="sub-nav">
 							<li><a href="'.$path.'/programs/">spring institute</a></li>
-							<!--<li><a href="'.$path.'/programs/2012">concerts</a></li>-->
+							<li><a href="'.$path.'/programs/2013">concerts</a></li>
 							<li><a href="'.$path.'/programs/media">media</a></li>	
 							<li><a href="http://praxisorchestra.wordpress.com/" target="_blank">blog</a></li>		
 						</ul>

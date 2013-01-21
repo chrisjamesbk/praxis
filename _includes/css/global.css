@@ -425,8 +425,7 @@
 									width:1px;
 								}
 								
-								/* BUY TICKETS
-								#home #program .col1 a {
+								#home #program .col1 a.buy {
 									display:block;
 									text-indent:-9999px;
 									height:58px;
@@ -436,10 +435,9 @@
 									margin-left:88px;
 								}
 								
-								#home #program .col1 a:hover {
+								#home #program .col1 a.buy:hover {
 									background:url('../img/tickets-sprite.png') no-repeat 0 -58px transparent;
 								}
-								*/
 								
 								#home #program .col1 a {
 									color:#c20000;
@@ -648,7 +646,7 @@
 				}
 				
 				/*
-				 * 2011/2012
+				 * 2011/2012/2013
 				 */
 						#programs .box ul.dates li {
 							float:left;
@@ -673,10 +671,12 @@
 						#programs .box form {
 							text-align:center;
 							margin-bottom:10px;
+							font-size: 14px;
 						}
 						
 						#programs .box form table {
-							width:604px;
+							width:100%;
+							
 						}
 						
 						#programs .box form img {

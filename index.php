@@ -50,9 +50,10 @@
 					
 					<li class="col1">
 						
+						<!--
 						<p>The Praxis Spring Institute offers advanced young musicians the opportunity to train and perform with the Praxis faculty in an intensive week of workshops and rehearsals.</p>
 						
-						<!--<p><strong><a href="./programs">More information</a></strong></p>-->
+						<!--<p><strong><a href="./programs">More information</a></strong></p>
 						
 						<p>Spring Institute dates: <strong>February 16-19th &amp; 22nd, 2013</strong></p>
 						
@@ -60,28 +61,28 @@
 						
 						<span id="button"><a href="./audition">Apply for an audition</a></span>
 						
-						<!--
+						-->
 						
-						<p>Praxis Youth Leadership Orchestra proudly presents the <strong>2012 Spring Institute</strong> concerts.</p>
+						<p>Praxis Youth Leadership Orchestra proudly presents the <strong>2013 Spring Institute</strong> concerts.</p>
 						
 						<table>
 							<tr>
 								<td>
-									<p>Friday 2/24</p>
+									<p>Tuesday 2/19</p>
 								</td>
 								<td>
 									<p>7:30pm</p>
 								</td>
 								<td>
-									<p><strong>Salon 94 - SOLD OUT</strong></p>
+									<p><strong>Stephen Wise Free Synagogue</strong></p>
 								</td>
 							</tr>
 							<tr>
 								<td>
-									<p>Sunday 2/26</p>
+									<p>Friday 2/22</p>
 								</td>
 								<td>
-									<p>7:00pm</p>
+									<p>7:30pm</p>
 								</td>
 								<td>
 									<p><strong>The Italian Academy at Columbia University</strong></p>
@@ -89,8 +90,7 @@
 							</tr>
 						</table>
 						
-						<a href="./programs/2012">Buy Tickets</a>
-						-->
+						<a class="buy" href="./programs/2013">Buy Tickets</a>
 							
 					</li>
 					
