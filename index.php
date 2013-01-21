@@ -220,12 +220,12 @@
 								
 						<li>
 						
-							<a href="./faculty/#christa">
+							<a href="./faculty/#naho">
 
-								<img src="./_includes/img/faculty/christa.jpg" alt="Christa photo" />
+								<img src="./_includes/img/faculty/naho.jpg" alt="Naho photo" />
 
-								<h1>Christa Robinson</h1>
-								<h2>Oboe</h2>
+								<h1>Naho Parrini</h1>
+								<h2>Violin</h2>
 						
 							</a>
 
@@ -259,12 +259,12 @@
 					
 						<li>
 						
-							<a href="./faculty/#elizabeth">
+							<a href="./faculty/#keve">
 
-								<img src="./_includes/img/faculty/elizabeth.jpg" alt="Elizabeth photo" />
+								<img src="./_includes/img/faculty/keve.jpg" alt="Keve photo" />
 
-								<h1>Elizabeth Young</h1>
-								<h2>Violin</h2>
+								<h1>Keve Wilson</h1>
+								<h2>Oboe</h2>
 							
 							</a>
 

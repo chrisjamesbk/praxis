@@ -109,13 +109,13 @@
 
 				</li>
 							
-				<li id="christa" class="left clearfix">
+				<li id="naho" class="left clearfix">
 					
-					<img src="../_includes/img/faculty/christa.jpg" alt="Christa photo" />
+					<img src="../_includes/img/faculty/naho.jpg" alt="Naho photo" />
 
 					<section>	
-						<h1>Christa Robinson</h1>
-						<p>Oboist Christa Robinson, recently moved to New York City from Saskatchewan, Canada, where she performed as Principal Oboe with the Saskatoon Symphony Orchestra.  She now lives in Brooklyn, NY and is a member of the Colonial Symphony Orchestra, the Canadian Chamber Orchestra of NYC and the Double Entendre Music Ensemble, and can frequently be heard performing with the Harrisburg Symphony, The Philharmonic Orchestra of the Americas, the DiCapo Opera, and new music ensembles Sequitur, Argento, Alarm Will Sound, the S.E.M Orchestra and Signal.  This fall, Christa will be premiering an <span class="trigger"><a href="#christa">&#40;...&#41;</a></span> <span class="toggle_container"> oboe quartet written by Martin Bresnick commissioned through the Meet the Composers organization, and awarded to the Double Entendre Music Ensemble. <br />In addition to performing, Christa is a faculty member of the Third Street Music School Settlement, and teaches early childhood music at several nursery and elementary schools throughout NYC.  When away from the stage or the classroom, Christa can be found in the pottery studio covered from head to toe in clay.</span></p>
+						<h1>Naho Parrini</h1>
+						<p>Naho Parrini, a native of Japan, is an active performer and an educator. As an advocate of contemporary music, she has commissioned and premiered dozens of works. She has given numerous recitals in the United States, Canada, Japan, Germany, and Bulgaria, both as a soloist and chamber musician, and has performed at prestigious halls such as Merkin Hall, Lincoln Center, Carnegie Hall, Izumi Hall in Japan, and the National Palace of Culture in Bulgaria. As a member of the Hyperion String Quartet, she performed throughout the United States, Canada, and Japan from 2007 – 2009. <span class="trigger"><a href="#christa">&#40;...&#41;</a></span><span class="toggle_container"><br/>Her live performances have been broadcasted worldwide on WQXR and she was a featured recitalist on the Bulgarian National Television. She is a recipient of numerous scholarships and awards including the first prize of the NCSA Concerto Competition, the Giannini scholarship, and the Liberace scholarship. She received her BM from North Carolina School of the Arts, and her MM and DMA from the State University of New York at Stony Brook. Her principal teachers include Philip Setzer, Pamela Frank, Mitchell Stern, and Kevin Lawrence. Since 2003, Naho spends her summers at the Kinhaven Music School in Vermont and, since 2007, she has been serving as a resident teaching artist at the Bloomingdale School of Music in Manhattan, New York.</span></p>
 					</section>
 
 				</li>
@@ -143,13 +143,13 @@
 
 				</li>
 				
-				<li id="elizabeth" class="right clearfix">
+				<li id="keve" class="right clearfix">
 
-					<img src="../_includes/img/faculty/elizabeth.jpg" alt="Elizabeth photo" />
+					<img src="../_includes/img/faculty/keve.jpg" alt="Keve photo" />
 
 					<section>
-						<h1>Elizabeth Young</h1>
-						<p>Violinist Elizabeth Young is a musician with a wide variety of interests and abilities. She began her studies on the violin and piano at age 3 and has since performed in the United States and in Europe as a soloist, chamber musician, and orchestra member. Elizabeth moved to New York City in 2004 to study violin at the Manhattan School of Music, and she earned her Master of Music degree in 2006. Before moving to New York, she studied for four years at the North Carolina School of the Arts and earned both her High School Diploma and Bachelor of Music degree.  <span class="trigger"><a href="#elizabeth">&#40;...&#41;</a></span> <span class="toggle_container"><br />With an outstanding reputation as an orchestral musician, Elizabeth has performed with and served in leadership positions in many chamber ensembles and orchestras, including the Albany Symphony Orchestra, The Chelsea Symphony, Claremont Ensemble, Da Capo Opera Company, Distinguished Concerts International Orchestra, Green Mountain Opera Festival, Illuminations Festival Orchestra, Manhattan Chamber Sinfonia, Manhattan Symphony Orchestra, Miami Symphony Orchestra, NCSA Symphony Orchestra, the Philharmonic Orchestra of the Americas, the Texas Music Festival Orchestra, and the Vermont Symphony Orchestra, where she was chosen in 2008 by Jaime Laredo for a violin position. She also regularly serves as the Concertmaster of the New York Opera Society Orchestra. <br />Elizabeth is an active freelance musician and teacher in New York City, where she has been seen in performances at Barge Music, Carnegie Hall, New York City Center, Lincoln Center, Merkin Hall, Metropolitan Museum of Art, Radio City Music Hall, St. John the Divine Cathedral, Trinity Church at Wall Street, World Financial Center, the United Nations, and the National Gallery of Art in Washington, D.C. As a result of these performances, she has appeared on the BBC, CBS, and CNN. In addition, Elizabeth is the Director of the Music School at Huntington Center for Performing Arts in Long Island, where she a member of the violin and piano faculty.</span></p>
+						<h1>Keve Wilson</h1>
+						<p>Oboist Keve Wilson is a graduate of The Eastman School of Music, a winner of Concert Artists Guild, and solo oboist with the Grammy nominated Absolute Ensemble, where she has performed everywhere from Greece to Dubai to New Zealand. In Los Angeles she won a coveted job in Opera Pacific and played on film and television scores, including Spiderman 3. In 2011, Keve performed at the Newport Jazz Festival with Miguel Zenon and with Jazz at Lincoln Center as soloist of the re-creation “Bird with Strings.” A teacher at the Diller-Quaile School of Music and the 92Y, her solo CD, Pure Imagination, was released on <span class="trigger"><a href="#elizabeth">&#40;...&#41;</a></span> <span class="toggle_container">NAXOS in 2011. Keve’s schedule takes her to South Korea, Germany, and South Africa in 2013. Originally from Hyde Park, NY, Keve lives in her favorite city of New York with her husband and two Portuguese water dogs.</span></p>
 					<section>
 
 				</li>
