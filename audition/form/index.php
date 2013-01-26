@@ -16,6 +16,9 @@
 	include($path."/_includes/php/header.php");
 ?>
 
+<script>
+    window.location = "../";
+</script>
 			
 		<section class="main">
 			

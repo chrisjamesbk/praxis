@@ -38,6 +38,9 @@
 				<li>3. <em>Interview:</em> Each audition will include a short interview in which each applicant will be asked to talk briefly about his or her musical experiences.</li>
 			</ul>
 			
+			<p>If you would like to audition for the 2013 Praxis Spring Institute, please contact us via email: info [at] praxisorchestra.org</p>
+			
+			<!--
 			<p>Application Fee: $40</p>
 
 			<p>Payment may be made by credit card via PayPal or check via mail. Please include student name on the front of the check. Mail checks to:</p> 
@@ -49,7 +52,7 @@
 
 			<p>Applications will not be processed until payment and a completed application <a href="./form">form</a> are received. Application fee is non-refundable. Applications are processed on a first come, first served basis. You will be notified as soon as possible of your audition time slot.</p>
 			
-			<!--<p>Application Deadline: <strong>October 29, 2010</strong></p>-->
+			<!--<p>Application Deadline: <strong>October 29, 2010</strong></p>
 
 			<p>If you have any questions, please contact info [at] praxisorchestra.org</p>
 			
@@ -61,7 +64,9 @@
 				<input type="hidden" name="cmd" value="_s-xclick">
 				<input type="hidden" name="hosted_button_id" value="MKH5WB2JG4MCC">
 				<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-			</form>			
+			</form>
+			
+			-->			
 
 		</section>
 
