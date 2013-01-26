@@ -20,7 +20,7 @@
 					
 					<li>
 						
-						<p>Friday 2/19, 7:30pm<br/><span>Stephen Wise Free Synagogue</span><br/>30 W 68th St<br/>(between Columbus and Central Park West)</p>
+						<p>Tuesday 2/19, 7:30pm<br/><span>Stephen Wise Free Synagogue</span><br/>30 W 68th St<br/>(between Columbus and Central Park West)</p>
 						
 						<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr"
                         method="post">
@@ -50,7 +50,7 @@
 					
 					<li>
 						
-						<p>Sunday 2/22, 7:30pm<br/><span>The Italian Academy</span><br/>at Columbia University<br/>1161 Amsterdam Avenue<br/>(between W116 and 118)</p>
+						<p>Friday 2/22, 7:30pm<br/><span>The Italian Academy</span><br/>at Columbia University<br/>1161 Amsterdam Avenue<br/>(between W116 and 118)</p>
 						
 						<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr"
                         method="post">
