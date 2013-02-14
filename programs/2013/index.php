@@ -2,7 +2,7 @@
 	// set up page variables
 	$path = "../..";
 	$pageid = "programs";
-	$pagetitle = "2012 Spring Institute";
+	$pagetitle = "2013 Spring Institute";
 	
     // insert header
 	include($path."/_includes/php/header.php");

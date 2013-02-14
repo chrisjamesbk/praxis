@@ -15,7 +15,7 @@ echo '
 	<meta name="description" content="Praxis Youth Leadership Orchestra - making the musical leaders of tomorrow" />
 	
 	<meta name="author" content="Praxis Youth Leadership Orchestra" />
-	<meta name="Copyright" content="Praxis Youth Leadership Orchestra 2011. All Rights Reserved." />
+	<meta name="Copyright" content="Praxis Youth Leadership Orchestra 2013. All Rights Reserved." />
 
 	<meta name="DC.title" content="Praxis Youth Leadership Orchestra - making the musical leaders of tomorrow" />
 	<meta name="DC.subject" content="Youth Orchestra/Leadership/Non-profit" />
@@ -92,7 +92,7 @@ echo '
 							<li><a href="'.$path.'/about/">mission/vision<br />what we do</a></li>
 							<li><a href="'.$path.'/about/letter">letter from the artistic director</a></li>
 							<li><a href="'.$path.'/about/contact">contact</a></li>
-						</ul>								
+						</ul>
 						
 					</li>
 					
