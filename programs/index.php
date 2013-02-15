@@ -66,7 +66,7 @@
 				
 				<h1>information for students</h1>
 			
-				<p>Rehearsals will take place Feb. 16-19 from 10am to 4pm at the NYC iSchool, located at 131 Avenue of the Americas.</p>  
+				<p>Rehearsals will take place Feb. 16-19 from 9am to 4pm at the NYC iSchool, located at 131 Avenue of the Americas.</p>  
 				
 				<p>Concerts will take place on the evenings of Tuesday Feb. 19 at the Stephen Wise Free Synagogue and Friday Feb. 22 at the Italian Academy at Columbia University. <!--For more information on our upcoming concerts, click <a href="./2011">here</a>--></p>
 				
